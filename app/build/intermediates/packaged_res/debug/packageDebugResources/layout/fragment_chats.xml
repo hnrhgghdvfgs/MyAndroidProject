@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/chats_title"
+        style="@style/TextAppearance.Circle.ScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/screen_padding"
+        android:layout_marginTop="@dimen/screen_padding"
+        android:text="@string/chats_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_new_chat"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="@dimen/space_s"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/chats_new"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@id/chats_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/chats_title"
+        app:tint="@color/primary" />
+
+    <TextView
+        android:id="@+id/chats_subtitle"
+        style="@style/TextAppearance.Circle.Caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/screen_padding"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="@dimen/screen_padding"
+        android:text="@string/chats_subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chats_title" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chats_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/space_m"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/space_m"
+        android:paddingEnd="@dimen/space_m"
+        android:paddingBottom="@dimen/space_m"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chats_subtitle" />
+
+    <TextView
+        android:id="@+id/chats_empty"
+        style="@style/TextAppearance.Circle.Body"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_xl"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="@dimen/space_xl"
+        android:gravity="center"
+        android:text="@string/chats_empty"
+        android:textColor="@color/text_secondary"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chats_subtitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

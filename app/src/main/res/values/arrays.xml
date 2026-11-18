@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="post_categories">
+        <item>Новости</item>
+        <item>Идеи</item>
+        <item>Вопросы</item>
+        <item>Мемы</item>
+        <item>Спорт</item>
+        <item>Музыка</item>
+        <item>Кино</item>
+        <item>Технологии</item>
+    </string-array>
+</resources>

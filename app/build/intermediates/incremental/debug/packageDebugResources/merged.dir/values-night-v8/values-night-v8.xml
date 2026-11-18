@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0F0D19</color>
+    <color name="error">#FF6B6B</color>
+    <color name="gradient_end">#FF7FA3</color>
+    <color name="gradient_start">#8A6BFF</color>
+    <color name="input_background">#23203A</color>
+    <color name="like">#FF6B93</color>
+    <color name="on_primary">#1B0F4D</color>
+    <color name="on_primary_container">#E6DFFF</color>
+    <color name="on_secondary">#4A0F22</color>
+    <color name="on_secondary_container">#FFD9E4</color>
+    <color name="primary">#A793FF</color>
+    <color name="primary_container">#332A66</color>
+    <color name="scrim">#99000000</color>
+    <color name="secondary">#FF7FA3</color>
+    <color name="secondary_container">#4A1A2C</color>
+    <color name="stroke">#2D2840</color>
+    <color name="success">#35D6A0</color>
+    <color name="surface">#1A1727</color>
+    <color name="surface_variant">#23203A</color>
+    <color name="tab_indicator">#A793FF</color>
+    <color name="text_primary">#F3F0FF</color>
+    <color name="text_secondary">#A9A3C2</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <style name="Theme.Circle" parent="Theme.Circle.Base">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

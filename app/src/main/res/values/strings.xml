@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Круг</string>
+    <string name="logo_letter">К</string>
+    <string name="app_tagline">Социальная сеть для своих</string>
+
+    <!-- Авторизация -->
+    <string name="login_title">С возвращением</string>
+    <string name="login_subtitle">Войдите, чтобы продолжить общение</string>
+    <string name="register_title">Создать аккаунт</string>
+    <string name="register_subtitle">Пара шагов — и вы в Круге</string>
+    <string name="hint_login">Логин</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_password_confirm">Повторите пароль</string>
+    <string name="hint_name">Имя и фамилия</string>
+    <string name="hint_bio">О себе</string>
+    <string name="btn_login">Войти</string>
+    <string name="btn_register">Зарегистрироваться</string>
+    <string name="no_account">Нет аккаунта?</string>
+    <string name="have_account">Уже есть аккаунт?</string>
+    <string name="link_register">Создать</string>
+    <string name="link_login">Войти</string>
+    <string name="demo_hint">Демо-вход: anna / 123456</string>
+
+    <!-- Ошибки и подсказки -->
+    <string name="error_empty_login">Введите логин</string>
+    <string name="error_empty_password">Введите пароль</string>
+    <string name="error_empty_name">Введите имя</string>
+    <string name="error_short_username">Логин должен содержать минимум 3 символа</string>
+    <string name="error_short_password">Пароль должен содержать минимум 6 символов</string>
+    <string name="error_password_mismatch">Пароли не совпадают</string>
+    <string name="error_username_taken">Этот логин уже занят</string>
+    <string name="error_invalid_credentials">Неверный логин или пароль</string>
+    <string name="error_user_blocked">Аккаунт заблокирован администратором</string>
+    <string name="error_title_required">Введите заголовок</string>
+    <string name="error_content_required">Введите текст публикации</string>
+    <string name="error_comment_empty">Введите комментарий</string>
+    <string name="error_generic">Что-то пошло не так. Попробуйте ещё раз</string>
+
+    <string name="toast_welcome">Добро пожаловать, %1$s!</string>
+    <string name="toast_registered">Регистрация успешна</string>
+    <string name="toast_post_published">Публикация добавлена</string>
+    <string name="toast_post_deleted">Публикация удалена</string>
+    <string name="toast_comment_deleted">Комментарий удалён</string>
+    <string name="toast_comment_added">Комментарий добавлен</string>
+    <string name="toast_profile_saved">Профиль сохранён</string>
+    <string name="toast_user_blocked">Пользователь заблокирован</string>
+    <string name="toast_user_unblocked">Пользователь разблокирован</string>
+    <string name="toast_user_deleted">Пользователь удалён</string>
+    <string name="toast_followed">Вы подписались</string>
+    <string name="toast_unfollowed">Вы отписались</string>
+
+    <!-- Навигация -->
+    <string name="nav_feed">Лента</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_create">Создать</string>
+    <string name="nav_chats">Чаты</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Сообщения -->
+    <string name="chats_title">Сообщения</string>
+    <string name="chats_subtitle">Личные переписки</string>
+    <string name="chats_empty">Нажмите «+», чтобы найти собеседника и начать переписку</string>
+    <string name="chats_search_hint">Найти собеседника</string>
+    <string name="chats_new">Новый чат</string>
+    <string name="chats_no_users">Пользователи не найдены</string>
+    <string name="chats_you_prefix">Вы: %1$s</string>
+    <string name="dialog_delete_chat_title">Удалить переписку?</string>
+    <string name="dialog_delete_chat_message">Все сообщения этого диалога будут удалены безвозвратно.</string>
+    <string name="toast_chat_deleted">Переписка удалена</string>
+
+    <string name="chat_input_hint">Сообщение…</string>
+    <string name="chat_empty">Сообщений пока нет. Напишите первым!</string>
+    <string name="error_message_empty">Введите сообщение</string>
+    <string name="error_message_too_long">Слишком длинное сообщение (до 2000 символов)</string>
+    <string name="btn_write_message">Написать сообщение</string>
+
+    <!-- Лента -->
+    <string name="feed_title">Лента</string>
+    <string name="tab_all">Все</string>
+    <string name="tab_following">Подписки</string>
+    <string name="tab_popular">Популярное</string>
+    <string name="empty_feed">Пока пусто. Создайте первую публикацию!</string>
+    <string name="empty_following">Вы ещё ни на кого не подписаны</string>
+    <string name="empty_popular">Здесь появятся самые обсуждаемые публикации</string>
+    <string name="empty_user_posts">У пользователя пока нет публикаций</string>
+    <string name="read_more">Читать</string>
+
+    <!-- Публикация -->
+    <string name="post_detail_title">Публикация</string>
+    <string name="comments_title">Комментарии (%1$d)</string>
+    <string name="comments_title_plain">Комментарии</string>
+    <string name="comments_empty">Комментариев пока нет. Будьте первым!</string>
+    <string name="comment_hint">Написать комментарий…</string>
+    <string name="btn_send">Отправить</string>
+    <string name="follow">Подписаться</string>
+    <string name="unfollow">Вы подписаны</string>
+
+    <string name="create_post_title">Новая публикация</string>
+    <string name="hint_post_title">Заголовок</string>
+    <string name="hint_post_content">Что нового?</string>
+    <string name="hint_category">Категория</string>
+    <string name="btn_publish">Опубликовать</string>
+    <string name="btn_add_photo">Добавить фото</string>
+    <string name="btn_change_photo">Заменить фото</string>
+    <string name="btn_remove_photo">Удалить фото</string>
+    <string name="post_photo_hint">Фото необязательно — можно опубликовать и текст</string>
+    <string name="photo_selected">Фото выбрано. Его можно заменить или удалить</string>
+    <string name="toast_photo_failed">Не удалось загрузить фото</string>
+    <string name="cd_post_image">Изображение публикации</string>
+
+    <!-- Поиск -->
+    <string name="search_title">Поиск</string>
+    <string name="search_hint">Публикации, авторы, категории</string>
+    <string name="search_empty_query">Введите запрос, чтобы найти публикации</string>
+    <string name="search_no_results">Ничего не найдено</string>
+    <string name="search_results">Найдено: %1$d</string>
+
+    <!-- Профиль -->
+    <string name="profile_title">Профиль</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="admin_panel">Админ-панель</string>
+    <string name="logout">Выйти из аккаунта</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="settings_title">Настройки</string>
+    <string name="stat_posts">Публикации</string>
+    <string name="stat_followers">Подписчики</string>
+    <string name="stat_likes">Лайки</string>
+    <string name="bio_empty">Расскажите о себе</string>
+    <string name="my_posts">Мои публикации</string>
+    <string name="edit_profile_title">Редактирование профиля</string>
+    <string name="hint_bio_edit">Пара слов о себе</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="logout_title">Выйти из аккаунта?</string>
+    <string name="logout_message">Вы сможете войти снова в любой момент</string>
+
+    <!-- Администратор -->
+    <string name="admin_title">Админ-панель</string>
+    <string name="admin_subtitle">Управление пользователями и контентом</string>
+    <string name="admin_users">Пользователи</string>
+    <string name="stat_users">Пользователи</string>
+    <string name="stat_comments">Комментарии</string>
+    <string name="stat_blocked">Заблокированы</string>
+    <string name="btn_block">Заблокировать</string>
+    <string name="btn_unblock">Разблокировать</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="role_admin">Администратор</string>
+    <string name="role_user">Пользователь</string>
+    <string name="status_blocked">Заблокирован</string>
+    <string name="status_active">Активен</string>
+    <string name="admin_empty">Пользователи не найдены</string>
+
+    <!-- Диалоги -->
+    <string name="dialog_delete_post_title">Удалить публикацию?</string>
+    <string name="dialog_delete_post_message">Публикация и все её комментарии будут удалены безвозвратно.</string>
+    <string name="dialog_delete_comment_title">Удалить комментарий?</string>
+    <string name="dialog_delete_comment_message">Комментарий будет удалён безвозвратно.</string>
+    <string name="dialog_delete_user_title">Удалить пользователя?</string>
+    <string name="dialog_delete_user_message">Все публикации, комментарии и лайки пользователя будут удалены.</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_delete">Удалить</string>
+    <string name="dialog_logout_confirm">Выйти</string>
+
+    <!-- Категории -->
+    <string name="category_all">Все</string>
+
+    <!-- Контент-описания -->
+    <string name="cd_avatar">Аватар пользователя</string>
+    <string name="cd_back">Назад</string>
+    <string name="cd_like">Нравится</string>
+    <string name="cd_comment">Комментарий</string>
+    <string name="cd_send">Отправить комментарий</string>
+    <string name="cd_logo">Логотип Круг</string>
+    <string name="cd_clear_search">Очистить поиск</string>
+    <string name="cd_send_message">Отправить сообщение</string>
+    <string name="empty_emoji">🌱</string>
+    <string name="username_at">@%1$s</string>
+    <string name="admin_blocked_line">Заблокированы: %1$d</string>
+</resources>

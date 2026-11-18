@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Circle.Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_s"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/corner_small">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/corner_small">
+
+        <com.example.socialnetwork.widget.AvatarView
+            android:id="@+id/conversation_avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/conversation_name"
+            style="@style/TextAppearance.Circle.Body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/corner_small"
+            android:layout_marginEnd="@dimen/space_s"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/conversation_time"
+            app:layout_constraintStart_toEndOf="@id/conversation_avatar"
+            app:layout_constraintTop_toTopOf="@id/conversation_avatar" />
+
+        <TextView
+            android:id="@+id/conversation_preview"
+            style="@style/TextAppearance.Circle.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/corner_small"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="@dimen/space_s"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintEnd_toStartOf="@id/conversation_time"
+            app:layout_constraintStart_toEndOf="@id/conversation_avatar"
+            app:layout_constraintTop_toBottomOf="@id/conversation_name" />
+
+        <TextView
+            android:id="@+id/conversation_time"
+            style="@style/TextAppearance.Circle.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/conversation_name" />
+
+        <TextView
+            android:id="@+id/conversation_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="@dimen/space_xs"
+            android:background="@drawable/bg_unread"
+            android:gravity="center"
+            android:minWidth="20dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textColor="@color/on_primary"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/conversation_time" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

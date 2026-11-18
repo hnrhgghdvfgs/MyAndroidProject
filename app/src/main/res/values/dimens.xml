@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="card_corner">20dp</dimen>
+    <dimen name="corner_small">12dp</dimen>
+    <dimen name="corner_pill">100dp</dimen>
+
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_s">8dp</dimen>
+    <dimen name="space_m">16dp</dimen>
+    <dimen name="space_l">24dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+
+    <dimen name="avatar_s">32dp</dimen>
+    <dimen name="avatar_m">44dp</dimen>
+    <dimen name="avatar_l">92dp</dimen>
+
+    <dimen name="icon_s">18dp</dimen>
+    <dimen name="icon_m">24dp</dimen>
+
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="input_corner">14dp</dimen>
+</resources>
