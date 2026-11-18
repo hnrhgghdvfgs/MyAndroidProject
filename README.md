@@ -123,11 +123,11 @@ gradlew.bat assembleDebug
 >
 > | Вход | Лента | Публикация | Профиль | Админ-панель |
 > |------|-------|------------|---------|--------------|
-> | `doc/screens/login.png` | `doc/screens/feed.png` | `doc/screens/post.png` | `doc/screens/profile.png` | `doc/screens/admin.png` |
+> | `![login.jpg](app/screenshots/login.jpg)` | `![lenta.jpg](app/screenshots/lenta.jpg)` | `![public.jpg](app/screenshots/public.jpg)` | `![profil.jpg](app/screenshots/profil.jpg)` | `![admin panel.jpg](app/screenshots/admin%20panel.jpg)` |
 >
-> | Чаты | Переписка |
+> | Чаты | Фото |
 > |------|-----------|
-> | `doc/screens/chats.png` | `doc/screens/chat.png` |
+> | `![chat.jpg](app/screenshots/chat.jpg)` | `![foto.jpg](app/screenshots/foto.jpg)` |
 
 ## Лицензия
 
