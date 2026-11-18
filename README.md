@@ -119,15 +119,26 @@ gradlew.bat assembleDebug
 
 ## Скриншоты
 
-> Добавьте сюда скриншоты после запуска приложения:
->
-> | Вход | Лента | Публикация | Профиль | Админ-панель |
-> |------|-------|------------|---------|--------------|
-> | `![login.jpg](app/screenshots/login.jpg)` | `![lenta.jpg](app/screenshots/lenta.jpg)` | `![public.jpg](app/screenshots/public.jpg)` | `![profil.jpg](app/screenshots/profil.jpg)` | `![admin panel.jpg](app/screenshots/admin%20panel.jpg)` |
->
-> | Чаты | Фото |
-> |------|-----------|
-> | `![chat.jpg](app/screenshots/chat.jpg)` | `![foto.jpg](app/screenshots/foto.jpg)` |
+### 1. Авторизация
+![Авторизация](app/screenshots/login.jpg)
+
+### 2. Лента публикаций
+![Лента](app/screenshots/lenta.jpg)
+
+### 3. Публикации
+![Публикации](app/screenshots/public.jpg)
+
+### 4. Профиль пользователя
+![Профиль](app/screenshots/profil.jpg)
+
+### 5. Чаты
+![Чаты](app/screenshots/chat.jpg)
+
+### 6. Фотографии
+![Фотографии](app/screenshots/foto.jpg)
+
+### 7. Панель администратора
+![Администратор](app/screenshots/admin_panel.jpg)
 
 ## Лицензия
 
